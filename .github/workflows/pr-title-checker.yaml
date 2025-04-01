@@ -1,0 +1,16 @@
+{
+    "LABEL": {
+      "name": "title needs formatting",
+      "color": "EEEEEE"
+    },
+    "CHECKS": {
+      "prefixes": ["fix: ", "feat: ","docs: ","test: ","style: ","refactor: ","build: ","ci: ","perf: "," : "],
+      "regexp": "(?:[A-Za-z]+-[0-9]+|AUTOMATIC)\\] .+",
+      "regexpFlags": "i"
+    },
+    "MESSAGES": {
+      "success": "✅ PR title meets the required format.",
+      "failure": "❌ PR title does not match the required format. Expected formats include:\n- 'feat: [AAA-0000] Description'\n- 'fix: [AAA-0000][BBB-1111] Description'\n- '[AAA-0000] Description'\n- '[AUTOMATIC] Description'"
+    }
+  }
+  
