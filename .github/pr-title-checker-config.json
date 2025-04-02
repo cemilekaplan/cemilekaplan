@@ -4,7 +4,7 @@
       "color": "EEEEEE"
     },
     "CHECKS": {
-      "prefixes": ["fix: ", "feat: ","docs: ","test: ","style: ","refactor: ","build: ","ci: ","perf: "," : "],
+      "prefixes": ["fix: ", "feat: ","docs: ","test: ","style: ","refactor: ","build: ","ci: ","perf: "],
       "regexp": "^(?:\w+: )?\[(?:[A-Za-z]+-\d+|AUTOMATIC)\] .+",
       "regexpFlags": "i"
     },
