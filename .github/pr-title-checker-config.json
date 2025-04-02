@@ -4,7 +4,6 @@
       "color": "EEEEEE"
     },
     "CHECKS": {
-      "prefixes": ["fix: ", "feat: ","docs: ","test: ","style: ","refactor: ","build: ","ci: ","perf: "],
       "regexp": "^(?:\\w+: )?\\[(?:[A-Z]+-\\d+|AUTOMATIC)\\](?:\\[[A-Z]+-\\d+\\])* .+",
       "regexpFlags": "i"
     },
