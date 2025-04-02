@@ -5,7 +5,7 @@
     },
     "CHECKS": {
       "prefixes": ["fix: ", "feat: ","docs: ","test: ","style: ","refactor: ","build: ","ci: ","perf: "],
-      "regexp": "^(?:\\w+: )?(?:\\[(?:[A-Z]+-\\d+|AUTOMATIC)\\])+(?: \\[(?:[A-Z]+-\\d+)\\])* .+",
+      "regexp": "^(?:\\w+: )?\\[(?:[A-Z]+-\\d+|AUTOMATIC)\\](?:\\[[A-Z]+-\\d+\\])* .+",
       "regexpFlags": "i"
     },
     "MESSAGES": {
