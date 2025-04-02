@@ -4,7 +4,7 @@
       "color": "EEEEEE"
     },
     "CHECKS": {
-      "regexp": "^(?:\w+!?: )?\[(?:[A-Z0-9-]+|AUTOMATIC)\](?:\[[A-Z0-9-]+\])* .+",
+      "regexp": "^(?:\\w+!?: )?\\[(?:[A-Z0-9-]+|AUTOMATIC)\\](?:\\[[A-Z0-9-]+\\])* .+",
       "regexpFlags": "i"
     },
     "MESSAGES": {
